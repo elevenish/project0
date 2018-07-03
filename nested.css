@@ -1,0 +1,24 @@
+nav {
+  font-size: 10px; }
+  nav p {
+    color: darkblue; }
+  nav ul {
+    font-weight: bold;
+    color: blue; }
+
+.dance, .math, .extracurricular {
+  font-family: Georgia;
+  padding: 4px; }
+
+.dance {
+  color: white;
+  background-color: purple; }
+
+.math {
+  background-color: yellow; }
+
+.extracurricular {
+  color: white;
+  background-color: darkblue; }
+
+/*# sourceMappingURL=nested.css.map */

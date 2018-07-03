@@ -1,0 +1,42 @@
+div {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    background: grey;
+    padding: 10px;
+}
+
+#emphasis {
+    font-style: italic;
+}
+
+.projectname {
+    color: purple;
+    font-weight: bold;
+}
+
+ul > p {
+    font-size: 12px;
+}
+
+ul, p {
+    line-height: 1.2em;
+}
+
+@media (min-width: 500px)
+    {
+        h1::before
+        {
+            content: "Side Interests, Side Projects, and Stuff I Am Currently Working On";
+        }
+    }
+
+@media (max-width: 499px)
+    {
+        h1::before
+        {
+            content: "Side Interests";
+        }
+    }

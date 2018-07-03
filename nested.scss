@@ -1,0 +1,37 @@
+$maincolor: darkblue;
+$subcolor: blue;
+
+nav {
+    font-size: 10px;
+
+    p {
+        color: $maincolor;
+    }
+
+    ul {
+        font-weight: bold;
+        color: $subcolor;
+    }
+}
+
+%message {
+    font-family: Georgia;
+    padding: 4px;
+}
+
+.dance {
+    @extend %message;
+    color: white;
+    background-color: purple;
+}
+
+.math {
+    @extend %message;
+    background-color: yellow;
+}
+
+.extracurricular {
+    @extend %message;
+    color: white;
+    background-color: $maincolor;
+}
