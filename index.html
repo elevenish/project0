@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
+<!--From https://getbootstrap.com/docs/3.3/components/#navbar-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ms. CiCi Yu</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">About Me<span class="sr-only">(current)</span></a></li>
+        <li><a href="homework.html">Homework Sandwich</a></li>
+        <li><a href="quizzes.html">PARLO Quizzes</a></li>
+        <li><a href="psets.html">Problem Sets</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
     <head>
-        <title>My Webpage</title>
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="favefonts.css">
+        <link rel="stylesheet" href="responsive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        Hello, world!
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <p>My name is CiCi Yu, and I'm a public high school math teacher in the Greater Boston area. I use a problem-based, discussion, and inquiry approach to make math suck a little less for math-phobic students. While I am most passionate about teaching geometry, I've also taught Algebra I, Statistics, and AP Calculus AB. At various times during the school year, I serve as a mentor to pre-service math teachers.</p>
+                    <p>I proudly hold a B.A. in Psychology and routinely build time for "lessons of self" in my classes. I believe that secondary education is as much about helping students grapple with culture and identity as much as it is about learning mathematical content. I am a recipient of the Sontag Prize in Urban Education (2017) and a co-creator/designer of Play With Your Math.</p>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    This is another section.
+                </div>
+            </div>
+        </div>
     </body>
+
 </html>
